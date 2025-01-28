@@ -14,6 +14,7 @@
   },
   "devDependencies": {
     "drizzle-kit": "^0.24.2",
+    "neonctl": "^2.6.0",
     "serverless-offline": "^14.3.2"
   }
 }
