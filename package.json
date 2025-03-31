@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "offline": "npx serverless offline --stage dev",
-    "install:plugin": "npx serverless plugin install --name"
+    "offline": "npx serverless offline --stage development",
+    "install:plugin": "npx serverless plugin install --name",
+    "deploy": "npx serverless deploy --stage production --region eu-central-1",
+    "remove": "npx serverless remove --stage production --region eu-central-1"
   },
   "dependencies": {
     "@neondatabase/serverless": "^0.9.5",

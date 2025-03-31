@@ -32,5 +32,4 @@ app.use((req, res, next) => {
 });
 
 // We don't listen to a port, we let the serverless function handle that.
-
 exports.handler = serverless(app);
