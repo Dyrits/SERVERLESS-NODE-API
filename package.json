@@ -11,12 +11,12 @@
   "dependencies": {
     "@neondatabase/serverless": "^0.9.5",
     "drizzle-orm": "^0.33.0",
-    "express": "^4.19.2",
+    "express": "^4.22.3",
     "serverless-http": "^3.2.0"
   },
   "devDependencies": {
     "drizzle-kit": "^0.24.2",
     "neonctl": "^2.6.0",
-    "serverless-offline": "^14.3.2"
+    "serverless-offline": "^14.8.4"
   }
 }
