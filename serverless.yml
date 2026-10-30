@@ -9,7 +9,7 @@ useDotenv: true
 
 provider:
   name: aws
-  runtime: nodejs26.x
+  runtime: nodejs24.x
   environment:
     DATABASE_URL: ${env:DATABASE_URL}
 
